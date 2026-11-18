@@ -21,7 +21,7 @@ references from his APIs, compare, build only the best with Muse Spark.
 | 100milionseek `deepseek-v4.1-flash-free` | TIMEOUT (60 s) | None — helper slow/unstable tonight, as in the gta6 v3 session. |
 | OpenRouter `nvidia/nemotron-3-ultra-550b-a55b:free` | "None" | None — known helper parsing issue (model returns, helper prints None). |
 | CoArena `deepseek-v4-1-flash-1017` | "None" | None — same helper parsing issue. |
-| Numes `moonshotai/kimi-k3.1-pro:free` | No reply in session | None — call still running when the build moved on; result not awaited. |
+| Numes `moonshotai/kimi-k3.1-pro:free` | TIMEOUT (~122 s) | None — same read timeout as 100milionseek. |
 
 ## Adopted / rejected (all verified against the dev window by simulation, not taken on trust)
 
